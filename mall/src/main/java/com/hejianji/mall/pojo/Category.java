@@ -4,9 +4,6 @@ import lombok.Data;
 
 import java.util.Date;
 
-/**
- * pojo  简单的java对象
- */
 @Data
 public class Category {
     private Integer id;
@@ -22,6 +19,5 @@ public class Category {
     private Date createTime;
 
     private Date updateTime;
-
 
 }

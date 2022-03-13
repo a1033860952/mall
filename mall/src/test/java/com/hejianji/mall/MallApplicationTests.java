@@ -15,13 +15,13 @@ import org.springframework.test.context.junit4.SpringRunner;
 @RunWith(SpringRunner.class)
 @SpringBootTest
 public class MallApplicationTests  {
-    @Autowired
-    private CategoryMapper categoryMapper;
+//    @Autowired
+//    private CategoryMapper categoryMapper;
 
     @Test
     public void load() {
-        Category byId = categoryMapper.queryById(100001);
-        System.out.println(byId.toString());
+//        Category byId = categoryMapper.queryById(100001);
+//        System.out.println(byId.toString());
     }
 
 }

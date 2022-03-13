@@ -19,13 +19,13 @@ public class CategoryMapperTest extends MallApplicationTests {
 
     @Test
     public void finById() {
-        Category byId = categoryMapper.finById(100001);
-        System.out.println(byId.toString());
+//        Category byId = categoryMapper.finById(100001);
+//        System.out.println(byId.toString());
     }
 
     @Test
     public void queryById() {
-        Category byId = categoryMapper.queryById(100001);
-        System.out.println(byId.toString());
+//        Category byId = categoryMapper.queryById(100001);
+//        System.out.println(byId.toString());
     }
 }
